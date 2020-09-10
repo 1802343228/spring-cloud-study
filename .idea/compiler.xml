@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurker-server" />
+        <module name="provide-data" />
         <module name="provide-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurker-server" target="1.8" />
       <module name="micro-servise" target="1.8" />
+      <module name="provide-data" target="1.8" />
       <module name="provide-hello" target="1.8" />
     </bytecodeTargetLevel>
   </component>

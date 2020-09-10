@@ -10,6 +10,7 @@
     <modules>
         <module>eureka-server</module>
         <module>provide-hello</module>
+        <module>provide-data</module>
     </modules>
 
     <packaging>pom</packaging>
