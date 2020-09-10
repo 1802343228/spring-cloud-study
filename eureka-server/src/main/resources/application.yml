@@ -1,0 +1,10 @@
+server:
+  port: 7001
+eureka:
+  client:
+    #是否要注册到其他Eureka Server实列
+    register-with-eureka: false
+    #是否从其他Eureka Server获取实列
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
