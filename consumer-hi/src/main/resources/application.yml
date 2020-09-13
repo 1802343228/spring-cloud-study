@@ -1,0 +1,19 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: consumer-hi
+
+info:
+  app:
+    name: consumer-hi11
+
+eureka:
+  instance:
+    hostname: crq.com
+    prefer-ip-address: true
+
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka/

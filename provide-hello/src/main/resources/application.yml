@@ -4,10 +4,32 @@ spring:
 server:
   port: 8001
 
+info:
+  app:
+    name: provide-hello
+
+#nanagement:
+#  endpoints:
+#    web:
+#      exposure:
+#        incloude: '*'
+#  endpoint:
+#    health:
+#      show-details: always
+#    shutdown:
+#      enabled: true #启用接口关闭Spring Boot
+
 #服务注册
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka/
 eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: crq.com
   client:
-    fetch-registry: true
-    register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka/

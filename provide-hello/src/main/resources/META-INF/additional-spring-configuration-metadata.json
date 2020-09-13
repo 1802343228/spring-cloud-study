@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "nanagement.endpoint.health.show-details",
+      "type": "java.lang.String",
+      "description": "Description for nanagement.endpoint.health.show-details."
+  }
+] }

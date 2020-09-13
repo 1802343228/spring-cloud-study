@@ -2,20 +2,34 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumer-hello" />
+        <module name="consumer-hi" />
         <module name="eurker-server" />
         <module name="provide-data" />
         <module name="provide-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer-hello" target="1.8" />
+      <module name="consumer-hi" target="1.8" />
       <module name="eurker-server" target="1.8" />
       <module name="micro-servise" target="1.8" />
       <module name="provide-data" target="1.8" />
       <module name="provide-hello" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-hello" options="-parameters" />
+      <module name="consumer-hi" options="-parameters" />
+      <module name="eurker-server" options="-parameters" />
+      <module name="provide-data" options="-parameters" />
+      <module name="provide-hello" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,10 +1,18 @@
 server:
   port: 7001
+spring:
+  application:
+    name: eureka-server
+
 eureka:
+  instance:
+    hostname: crq.com #主机名
+    prefer-ip-address: true #是否将当前服务的IP注册到Eureka Server
+
   client:
     #是否要注册到其他Eureka Server实列
     register-with-eureka: false
     #是否从其他Eureka Server获取实列
     fetch-registry: false
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://${eureka-server.hostname}:${server.port}/eureka/

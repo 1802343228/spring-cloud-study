@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
  * @author crq
  */
 @Data
-@Builder
 @AllArgsConstructor
+@Builder
 @NoArgsConstructor
-public class Eureka {
-    private String id;
+public class Student {
+    private Integer id;
     private String name;
 }
