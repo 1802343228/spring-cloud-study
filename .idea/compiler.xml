@@ -8,28 +8,41 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer-hello" />
-        <module name="consumer-hi" />
+        <module name="user-dto" />
         <module name="eurker-server" />
         <module name="provide-data" />
         <module name="provide-hello" />
+        <module name="course-dto" />
+        <module name="consumer-hi" />
+        <module name="student_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ClassDao" target="1.8" />
       <module name="consumer-hello" target="1.8" />
       <module name="consumer-hi" target="1.8" />
+      <module name="course-dto" target="1.8" />
       <module name="eurker-server" target="1.8" />
       <module name="micro-servise" target="1.8" />
       <module name="provide-data" target="1.8" />
       <module name="provide-hello" target="1.8" />
+      <module name="student_demo" target="1.8" />
+      <module name="StudentDao" target="1.8" />
+      <module name="user-dto" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ClassDao" options="-parameters" />
+      <module name="StudentDao" options="-parameters" />
       <module name="consumer-hello" options="-parameters" />
       <module name="consumer-hi" options="-parameters" />
+      <module name="course-dto" options="-parameters" />
       <module name="eurker-server" options="-parameters" />
       <module name="provide-data" options="-parameters" />
       <module name="provide-hello" options="-parameters" />
+      <module name="student_demo" options="-parameters" />
+      <module name="user-dto" options="-parameters" />
     </option>
   </component>
 </project>

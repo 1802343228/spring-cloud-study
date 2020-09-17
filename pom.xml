@@ -12,6 +12,9 @@
         <module>provide-hello</module>
         <module>provide-data</module>
         <module>consumer-hi</module>
+        <module>student_demo</module>
+        <module>user-dto</module>
+        <module>course-dto</module>
     </modules>
 
     <packaging>pom</packaging>

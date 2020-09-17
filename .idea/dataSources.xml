@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="studnet" uuid="9ebf4663-dede-43de-ba1f-bc6cbf1cd097">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://39.98.143.134:3306/ncth_student</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="class" uuid="d41c4ab1-c35a-4beb-bd01-db0d7e821821">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://39.98.143.134:3306/ncth_class</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="taotaocourse@47.115.60.46" uuid="ec5c9999-9039-4bfb-aea6-ee9e03437e7d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.115.60.46:3306/taotaocourse</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="taotaouser@47.115.60.46" uuid="572f7aca-0ef0-4fec-bf61-39bff7652381">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.115.60.46:3306/taotaouser</jdbc-url>
+    </data-source>
+  </component>
+</project>

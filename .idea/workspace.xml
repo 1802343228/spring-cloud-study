@@ -14,29 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a306f81-e4cf-4c62-9683-7d4301f65d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer-hi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hi/src/main/java/com/soft1851/cloud/study/ConsumerHelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hi/src/main/java/com/soft1851/cloud/study/handler/HelloHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-hi/src/main/java/com/soft1851/cloud/study/handler/StudentHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eurker-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/eurker-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provide-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provide-data/provide-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/provide-data/provide-data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/src/main/java/com/soft1851/cloud/study/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/provide-data/src/main/java/com/soft1851/cloud/study/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/src/main/java/com/soft1851/cloud/study/entity/Eureka.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/src/main/java/com/soft1851/cloud/study/mapper/EurekaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/src/main/java/com/soft1851/cloud/study/service/EurekaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/src/main/java/com/soft1851/cloud/study/service/Impl/EurekaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-data/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provide-hello/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-hello/provide-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/provide-hello/provide-hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-hello/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provide-hello/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provide-hello/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provide-hello/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -98,7 +88,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -108,7 +98,7 @@
       <recent name="D:\cloud\micro-servise\provide-hello\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderHelloMain">
+  <component name="RunManager" selected="Spring Boot.CourseDtoMain">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -120,9 +110,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ClassDao" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ClassDao" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassDaoMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ClassDao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="study.ClassDaoMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-hi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1851.cloud.study.ConsumerHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseDtoMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="course-dto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="soft1851.CourseDtoMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +211,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentDaoMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StudentDao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="study.StudentDaoMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDtoMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-dto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1851.UserDtoMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProviderHelloMain" />
@@ -181,7 +246,11 @@
       <workItem from="1599703743305" duration="5371000" />
       <workItem from="1599789099168" duration="1326000" />
       <workItem from="1599903257022" duration="616000" />
-      <workItem from="1600007221771" duration="6253000" />
+      <workItem from="1600007221771" duration="7175000" />
+      <workItem from="1600147903278" duration="605000" />
+      <workItem from="1600218224050" duration="1370000" />
+      <workItem from="1600219741180" duration="6602000" />
+      <workItem from="1600308955984" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -201,50 +270,62 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599707152031">
+    <state x="535" y="235" key="#Assign_Data_Sources" timestamp="1600223258113">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1599707152031" />
+    <state x="535" y="235" key="#Assign_Data_Sources/0.0.1280.689@0.0.1280.689" timestamp="1600223258113" />
+    <state x="377" y="168" key="#Notifications" timestamp="1600219925676">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="377" y="168" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1600219925676" />
+    <state x="242" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600313866170">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="242" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1600313866170" />
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1599707988525">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1599707988525" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1599704029327">
+    <state x="321" y="80" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600219439470">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1599704029327" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1599796079722">
+    <state x="321" y="80" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1600219439470" />
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1600309016252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1599796079722">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1600309016252" />
+    <state width="1236" height="180" key="GridCell.Tab.0.bottom" timestamp="1600324225509">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1599796079721">
+    <state width="1236" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1600324225509" />
+    <state width="1236" height="180" key="GridCell.Tab.0.center" timestamp="1600324225509">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1599796079721" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1599796079722">
+    <state width="1236" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1600324225509" />
+    <state width="1236" height="180" key="GridCell.Tab.0.left" timestamp="1600324225509">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1599796079722">
+    <state width="1236" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1600324225509" />
+    <state width="1236" height="180" key="GridCell.Tab.0.right" timestamp="1600324225509">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1599796079722">
+    <state width="1236" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1600324225509" />
+    <state width="1236" height="180" key="GridCell.Tab.1.bottom" timestamp="1600324225510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1599796079722">
+    <state width="1236" height="180" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1600324225510" />
+    <state width="1236" height="180" key="GridCell.Tab.1.center" timestamp="1600324225510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1599796079722">
+    <state width="1236" height="180" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1600324225510" />
+    <state width="1236" height="180" key="GridCell.Tab.1.left" timestamp="1600324225510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1599796079722" />
+    <state width="1236" height="180" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1600324225510" />
+    <state width="1236" height="180" key="GridCell.Tab.1.right" timestamp="1600324225510">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1236" height="180" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1600324225510" />
     <state width="1237" height="198" key="GridCell.Tab.2.bottom" timestamp="1599709167430">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -261,18 +342,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="198" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1599709167430" />
-    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1599707158000">
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1600218976896">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.689@0.0.1280.689" timestamp="1599707158000" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600007250232">
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.689@0.0.1280.689" timestamp="1600218976896" />
+    <state x="221" y="80" key="IDE.errors.dialog" timestamp="1600220983525">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1600007250232" />
-    <state x="111" y="6" key="new project wizard" timestamp="1600012212111">
+    <state x="221" y="80" key="IDE.errors.dialog/0.0.1280.689@0.0.1280.689" timestamp="1600220983525" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1600313360552">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="111" y="6" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1600012212111" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1600313360552" />
+    <state x="797" y="101" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600323524916">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="797" y="101" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1600323524916" />
+    <state x="111" y="6" key="new project wizard" timestamp="1600219387794">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="111" y="6" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1600219387794" />
     <state x="483" y="155" key="run.anything.popup" timestamp="1600010709052">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
