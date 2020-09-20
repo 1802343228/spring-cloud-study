@@ -1,0 +1,7 @@
+com\soft1851\course\CourseMain.class
+com\soft1851\course\entity\Course.class
+com\soft1851\course\service\impl\CourseServiceImpl.class
+com\soft1851\course\service\CourseService.class
+com\soft1851\course\controller\CourseController.class
+com\soft1851\course\repository\CourseRepository.class
+com\soft1851\course\entity\Course$CourseBuilder.class

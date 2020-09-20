@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-hi/consumer-hi.iml" filepath="$PROJECT_DIR$/consumer-hi/consumer-hi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course-dto/course-dto.iml" filepath="$PROJECT_DIR$/course-dto/course-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eurker-server.iml" filepath="$PROJECT_DIR$/eureka-server/eurker-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-servise.iml" filepath="$PROJECT_DIR$/micro-servise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provide-data/provide-data.iml" filepath="$PROJECT_DIR$/provide-data/provide-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provide-hello/provide-hello.iml" filepath="$PROJECT_DIR$/provide-hello/provide-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student_demo/student_demo.iml" filepath="$PROJECT_DIR$/student_demo/student_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-dto/user-dto.iml" filepath="$PROJECT_DIR$/user-dto/user-dto.iml" />
+    </modules>
+  </component>
+</project>
