@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: content-center
+  datasource:
+    url: jdbc:mysql://localhost:3306/course-center
+    hikari:
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jbdc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        metadata:
+          instance: cc
+          version: 1.0
+#        namespace: 8c9eedcc-cdac-4edb-9f0a-2a2b1526b797
+server:
+  port: 8880
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#  user-center:
+#    ribbon:
+#      NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: user-center

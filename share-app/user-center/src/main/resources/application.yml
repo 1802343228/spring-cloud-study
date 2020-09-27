@@ -1,0 +1,31 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: user-center
+  datasource:
+    url: jdbc:mysql://localhost:3306/user-center
+    hikari:
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        # 指定nacos server的地址
+        server-addr: localhost:8848
+        metadata:
+          instance: cc
+          version: 1.0
+#        namespace: 8c9eedcc-cdac-4edb-9f0a-2a2b1526b797
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
