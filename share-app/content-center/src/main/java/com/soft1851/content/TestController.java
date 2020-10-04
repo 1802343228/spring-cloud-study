@@ -1,5 +1,9 @@
 package com.soft1851.content;
 
+import com.soft1851.content.dto.UserDto;
+import com.soft1851.content.feignclient.TestBaiduFeignClient;
+import com.soft1851.content.feignclient.TestUserCenterFeignClient;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -18,13 +22,13 @@ import java.util.Random;
 @Slf4j
 @RestController
 @RequestMapping(value = "/test")
+@RequiredArgsConstructor(onConstructor = @_(@Autowired))
 public class TestController {
 
-    @Autowired
-    private DiscoveryClient discoveryClient;
-
-    @Autowired
-    private RestTemplate restTemplate;
+    private final DiscoveryClient discoveryClient;
+    private final RestTemplate restTemplate;
+    private final TestUserCenterFeignClient testUserCenterFeignClient;
+    private final TestBaiduFeignClient testBaiduFeignClient;
 
     @GetMapping("/discovery")
     public List<ServiceInstance> getInstances(){
@@ -50,4 +54,13 @@ public class TestController {
         return  restTemplate.getForObject("http://user-center/user/hello",String.class);
     }
 
+    @GetMapping(value = "/test-q")
+    public UserDto query(UserDto userDto){
+        return testUserCenterFeignClient.query(userDto);
+    }
+
+    @GetMapping(value = "/baidu")
+    public String baiduIndex() {
+        return this.testBaiduFeignClient.index();
+    }
 }
