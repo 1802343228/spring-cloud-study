@@ -1,5 +1,7 @@
 package com.soft1851.content;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.soft1851.content.dto.UserDto;
 import com.soft1851.content.feignclient.TestBaiduFeignClient;
 import com.soft1851.content.feignclient.TestUserCenterFeignClient;
@@ -63,4 +65,28 @@ public class TestController {
     public String baiduIndex() {
         return this.testBaiduFeignClient.index();
     }
+
+    private final TestService testService;
+
+    @GetMapping("/test-a")
+    public String testA() {
+        this.testService.commonMethod();
+        return "test-a";
+    }
+    @GetMapping("/test-b")
+    public String testB() {
+        this.testService.commonMethod();
+        return "test-b";
+    }
+
+    @GetMapping("/byResource")
+    @SentinelResource(value = "byResource",blockHandler = "handleException")
+    public String byResource() {
+        return "按名称限流";
+    }
+
+    public String handleException(BlockException blockException) {
+        return "服务不可用";
+    }
+
 }

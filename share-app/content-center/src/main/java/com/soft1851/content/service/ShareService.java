@@ -1,6 +1,8 @@
 package com.soft1851.content.service;
 
 import com.github.pagehelper.PageInfo;
+import com.soft1851.content.dto.ShareAudioDto;
+import com.soft1851.content.dto.ShareContributeDto;
 import com.soft1851.content.dto.ShareDto;
 import com.soft1851.content.entity.Share;
 
@@ -25,6 +27,20 @@ public interface ShareService {
      */
     PageInfo<Share> query(String title,Integer pageNo,Integer pageSize,Integer userId);
 
+    /**
+     * 投稿
+     * @param shareContributeDto
+     * @return
+     */
+    int putShare(ShareContributeDto shareContributeDto);
+
+    /**
+     * 审核投稿完成情况
+     * @param id
+     * @param shareAudioDto
+     * @return
+     */
+    Share auditById(Integer id, ShareAudioDto shareAudioDto);
 
     /**
      * 测试

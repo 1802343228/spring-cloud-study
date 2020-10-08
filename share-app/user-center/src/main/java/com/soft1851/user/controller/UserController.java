@@ -1,12 +1,11 @@
 package com.soft1851.user.controller;
 
+import com.soft1851.user.common.ResponseResult;
+import com.soft1851.user.dto.UserAddBonusMsgDto;
 import com.soft1851.user.entity.User;
 import com.soft1851.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -27,6 +26,12 @@ public class UserController {
         return userService.findById(id);
     }
 
+
+    @PostMapping("/bonus/new")
+    public ResponseResult addBonus(@RequestBody UserAddBonusMsgDto userAddBonusMsgDto) {
+        System.out.println("添加一条积分记录");
+        return ResponseResult.builder().code(userService.addBonus(userAddBonusMsgDto)).build();
+    }
     @GetMapping("/q")
     public User query(User user){
         return user;

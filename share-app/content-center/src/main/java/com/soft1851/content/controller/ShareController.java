@@ -1,5 +1,6 @@
 package com.soft1851.content.controller;
 
+import com.soft1851.content.dto.ShareContributeDto;
 import com.soft1851.content.dto.ShareDto;
 import com.soft1851.content.entity.Share;
 import com.soft1851.content.service.ShareService;
@@ -41,6 +42,12 @@ public class ShareController {
             pageSize = 100;
         }
         return this.shareService.query(title, pageNo, pageSize, userId).getList();
+    }
+
+    @PostMapping (value = "/contribute")
+    @ApiOperation(value = "投稿",notes = "投稿")
+    public int putShare(@RequestBody ShareContributeDto shareContributeDto) {
+        return shareService.putShare(shareContributeDto);
     }
 
 

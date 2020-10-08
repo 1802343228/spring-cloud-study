@@ -29,3 +29,5 @@ management:
     health:
       show-details: always
 
+rocketmq:
+  name-server: localhost:9876

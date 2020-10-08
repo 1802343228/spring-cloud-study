@@ -1,5 +1,6 @@
 package com.soft1851.user.service;
 
+import com.soft1851.user.dto.UserAddBonusMsgDto;
 import com.soft1851.user.entity.User;
 
 /**
@@ -12,4 +13,11 @@ public interface UserService {
      * @return
      */
     User findById(Integer id);
+
+    /**
+     * 添加一条积分记录
+     * @param userAddBonusMsgDto
+     * @return
+     */
+    int addBonus(UserAddBonusMsgDto userAddBonusMsgDto);
 }

@@ -1,3 +1,6 @@
+server:
+  port: 8888
+
 spring:
   application:
     name: content-center
@@ -17,8 +20,11 @@ spring:
           instance: cc
           version: 1.0
 #        namespace: 8c9eedcc-cdac-4edb-9f0a-2a2b1526b797
-server:
-  port: 8888
+    sentinel:
+      transport:
+        #指定sentinel控制台地址
+        dashboard: localhost:8081
+
 
 management:
   endpoints:
@@ -41,12 +47,12 @@ logging:
   level:
     com.soft1851.content.feignclient.UserCenterFeignClient: debug
 
-feign:
-  client:
-    config:
-      # 全局配置
-      default:
-        loggerLevel: full
+#feign:
+#  client:
+#    config:
+#      # 全局配置
+#      default:
+#        loggerLevel: full
 #  httpclient:
 #    # 让feign使用apache httpclient做请求；而不是默认的urlconnection
 #    enabled: true
@@ -54,3 +60,9 @@ feign:
 #    max-connections: 200
 #    # feign单个路径的最大连接数
 #    max-connections-per-route: 50
+
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    # 必须指定group
+    group: test-group

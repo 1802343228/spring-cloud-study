@@ -1,5 +1,6 @@
 package com.soft1851.user.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,7 +10,7 @@ import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.sql.Timestamp;
+import java.util.Date;
 
 
 /**
@@ -25,16 +26,21 @@ public class BonusEventLog {
     @GeneratedValue(generator = "JDBC")
     @Column(name = "id")
     private Integer id;
+
     @Column(name = "user_id")
     private Integer userId;
+
     @Column(name = "value")
     private Integer value;
+
     @Column(name = "event")
     private String event;
+
     @Column(name = "create_time")
-    private Timestamp createTime;
-    @Column(name = "update_time")
-    private Timestamp updateTime;
+    @JsonFormat(locale = "zh",timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date createTime;
+
+
     @Column(name = "description")
     private String description;
 }
