@@ -1,0 +1,16 @@
+/* pages/jifenmingxi/jifenmingxi.wxss */
+.bonus {
+  width: 95%;
+  margin: auto;
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid rgb(231, 230, 230);
+}
+.bonus_icon {
+  width: 45rpx;
+  height: 45rpx;
+}
+.bonus_icon1 {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 10rpx;
+}

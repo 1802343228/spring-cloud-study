@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="779f504a-54d8-4491-b2e1-5bee26887ab8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../content-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/ContentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/ContentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/controller/ShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/controller/ShareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/feignclient/UserCenterFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/feignclient/UserCenterFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/service/Impl/ShareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/service/Impl/ShareServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/service/ShareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/soft1851/content/service/ShareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1851/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1851/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1851/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1851/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1851/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1851/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../starter" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_jar" />
+        <option name="mavenHome" value="C:\Users\crq\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hr9z6zlW2nAuRbJJGt8GDXkeZh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2/spring-cloud-study/micro-service/share-app/content-center" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soft1851.user.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cloud\spring-cloud-study\share-app\user-center\src\main\java\com\soft1851\user\configuration" />
+      <recent name="D:\cloud\spring-cloud-study\share-app\user-center\src\main\java\com\soft1851\user\util" />
+      <recent name="D:\cloud\spring-cloud-study\share-app\user-center\src\main\java\com\soft1851\user" />
+      <recent name="D:\cloud\spring-cloud-study\share-app\user-center\src\main\java\com\soft1851\user\entity" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8880/test/call/ribbon" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8888/test/call/ribbon" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_1#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true">
+      <module name="user-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1851.user.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.rest-api#1" />
+      <item itemvalue="HTTP Request.rest-api_1#1" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api_1#1" />
+        <item itemvalue="HTTP Request.rest-api#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="779f504a-54d8-4491-b2e1-5bee26887ab8" name="Default Changelist" comment="" />
+      <created>1600758602522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600758602522</updated>
+      <workItem from="1600758610980" duration="228000" />
+      <workItem from="1600758919242" duration="4506000" />
+      <workItem from="1600825836551" duration="5490000" />
+      <workItem from="1600844587229" duration="3930000" />
+      <workItem from="1600930638901" duration="894000" />
+      <workItem from="1601000777684" duration="3689000" />
+      <workItem from="1601027229876" duration="639000" />
+      <workItem from="1601102109498" duration="1939000" />
+      <workItem from="1601181072230" duration="2464000" />
+      <workItem from="1601364610874" duration="3995000" />
+      <workItem from="1601376169530" duration="3071000" />
+      <workItem from="1601379617107" duration="594000" />
+      <workItem from="1601380797691" duration="4061000" />
+      <workItem from="1601429255790" duration="2398000" />
+      <workItem from="1601635999547" duration="3031000" />
+      <workItem from="1601815298055" duration="2620000" />
+      <workItem from="1602047162734" duration="858000" />
+      <workItem from="1602049505916" duration="366000" />
+      <workItem from="1602050968650" duration="3036000" />
+      <workItem from="1602122819922" duration="3713000" />
+      <workItem from="1602130281899" duration="10605000" />
+      <workItem from="1602204466182" duration="513000" />
+      <workItem from="1602206776361" duration="2023000" />
+      <workItem from="1602209051382" duration="226000" />
+      <workItem from="1602209486593" duration="2322000" />
+      <workItem from="1602478419636" duration="3644000" />
+      <workItem from="1602569453323" duration="11412000" />
+      <workItem from="1602593001770" duration="5427000" />
+      <workItem from="1602633471485" duration="1540000" />
+      <workItem from="1602690029836" duration="3357000" />
+      <workItem from="1602738096993" duration="5579000" />
+      <workItem from="1602779443540" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="64" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602481549889">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="64" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1602481549889" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1602607623874">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1602607623874" />
+    <state x="233" y="41" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601636032846">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="41" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1601636032846" />
+    <state x="428" y="105" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601383149563">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="428" y="105" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1601383149563" />
+    <state x="749" y="151" key="FileChooserDialogImpl" timestamp="1602747449642">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="749" y="151" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1602747449642" />
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1602750568913">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602750568913" />
+    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1602750568913">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1602750568913" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1602750568913">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1602750568913" />
+    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1602750568913">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1602750568913" />
+    <state width="1237" height="190" key="GridCell.Tab.1.bottom" timestamp="1602750568914">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602750568914" />
+    <state width="1237" height="190" key="GridCell.Tab.1.center" timestamp="1602750568913">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1602750568913" />
+    <state width="1237" height="190" key="GridCell.Tab.1.left" timestamp="1602750568913">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1602750568913" />
+    <state width="1237" height="190" key="GridCell.Tab.1.right" timestamp="1602750568914">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1602750568914" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1601384010587">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.689@0.0.1280.689" timestamp="1601384010587" />
+    <state x="17" y="0" key="SettingsEditor" timestamp="1602572163828">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="17" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1602572163828" />
+    <state x="112" y="11" key="new project wizard" timestamp="1602571602019">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="112" y="11" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1602571602019" />
+  </component>
+</project>

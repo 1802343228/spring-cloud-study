@@ -1,0 +1,8 @@
+<!--pages/jifenmingxi/jifenmingxi.wxml-->
+<view class="bonus" wx:for="{{bonusList}}">
+<image wx:if="{{item.event == '兑换'}}" class="bonus_icon" src="/image/icon_jifen.png"></image>
+<image wx:else class="bonus_icon1" src="/image/icon_qiandao.png"></image>
+<text>{{item.createTime}} - </text>
+<text>{{item.event}}</text>
+<text style="float:right">{{item.value}}</text>
+</view>

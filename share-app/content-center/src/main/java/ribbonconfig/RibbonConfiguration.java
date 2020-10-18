@@ -6,12 +6,17 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author crq
- */
+ * @author zhao
+ * @className RibbonConfiguration
+ * @Description TODO
+ * @Date 2020/9/25
+ * @Version 1.0
+ **/
 @Configuration
 public class RibbonConfiguration {
     @Bean
-    public IRule ribbonRule() {
+    public IRule ribbonRule(){
+        //c
         return new RandomRule();
     }
 }

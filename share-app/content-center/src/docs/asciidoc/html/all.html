@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.6.1">
-<title>share-app Swagger文档</title>
+<title>share-app Swagger接口文档</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -518,7 +518,7 @@ table.CodeRay td.code>pre{padding:0}
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>share-app Swagger文档</h1>
+<h1>share-app Swagger接口文档</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
@@ -533,42 +533,24 @@ table.CodeRay td.code>pre{padding:0}
 </li>
 <li><a href="#_paths">2. Resources</a>
 <ul class="sectlevel2">
-<li><a href="#_content-hello_resource">2.1. Content-hello</a>
+<li><a href="#_917a6a0ad3b9cec276900e3a86586a07">2.1. 公告接口</a>
 <ul class="sectlevel3">
-<li><a href="#_gethellousingget">2.1.1. getHello</a></li>
+<li><a href="#_gettopnoticeusingget">2.1.1. 查询最新一条公告</a></li>
 </ul>
 </li>
-<li><a href="#_test-controller_resource">2.2. Test-controller</a>
+<li><a href="#_3ecef281a805f36ea4142625eefacc12">2.2. 分享接口</a>
 <ul class="sectlevel3">
-<li><a href="#_baiduindexusingget">2.2.1. baiduIndex</a></li>
-<li><a href="#_callusercenterusingget">2.2.2. callUserCenter</a></li>
-<li><a href="#_callbyribbonusingget">2.2.3. callByRibbon</a></li>
-<li><a href="#_getinstancesusingget">2.2.4. getInstances</a></li>
-<li><a href="#_queryusingget_1">2.2.5. query</a></li>
-</ul>
-</li>
-<li><a href="#_917a6a0ad3b9cec276900e3a86586a07">2.3. 公告接口</a>
-<ul class="sectlevel3">
-<li><a href="#_gettopnoticeusingget">2.3.1. 查询最新一条公告</a></li>
-</ul>
-</li>
-<li><a href="#_3ecef281a805f36ea4142625eefacc12">2.4. 分享接口</a>
-<ul class="sectlevel3">
-<li><a href="#_queryusingget">2.4.1. 分享列表</a></li>
-<li><a href="#_findbyidusingget">2.4.2. 查询指定id的分享详情</a></li>
+<li><a href="#_queryusingget">2.2.1. 分享列表</a></li>
+<li><a href="#_findbyidusingget">2.2.2. 通过id查询</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li><a href="#_definitions">3. Definitions</a>
 <ul class="sectlevel2">
-<li><a href="#_serviceinstance">3.1. ServiceInstance</a></li>
-<li><a href="#_sharedto">3.2. ShareDto</a></li>
-<li><a href="#_timestamp">3.3. Timestamp</a></li>
-<li><a href="#_uri">3.4. URI</a></li>
-<li><a href="#_userdto">3.5. UserDto</a></li>
-<li><a href="#_fa86f1a57d6f758a93cb33b59c015654">3.6. 公告</a></li>
-<li><a href="#_c31f48f84ef207e66a03c015a7243b43">3.7. 分享</a></li>
+<li><a href="#_sharedto">3.1. ShareDTO</a></li>
+<li><a href="#_fa86f1a57d6f758a93cb33b59c015654">3.2. 公告</a></li>
+<li><a href="#_c31f48f84ef207e66a03c015a7243b43">3.3. 分享</a></li>
 </ul>
 </li>
 </ul>
@@ -579,7 +561,7 @@ table.CodeRay td.code>pre{padding:0}
 <h2 id="_overview"><a class="anchor" href="#_overview"></a><a class="link" href="#_overview">1. Overview</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>github地址：https://github.com/1802343228/spring-cloud-study/tree/master/share-app</p>
+<p>github地址：https://github.com/zhao-rgb/micro-service</p>
 </div>
 <div class="sect2">
 <h3 id="_version_information"><a class="anchor" href="#_version_information"></a><a class="link" href="#_version_information">1.1. Version information</a></h3>
@@ -590,15 +572,15 @@ table.CodeRay td.code>pre{padding:0}
 <div class="sect2">
 <h3 id="_contact_information"><a class="anchor" href="#_contact_information"></a><a class="link" href="#_contact_information">1.2. Contact information</a></h3>
 <div class="paragraph">
-<p><em>Contact</em> : crq<br>
-<em>Contact Email</em> : <a href="mailto:2631315464@qq.com">2631315464@qq.com</a></p>
+<p><em>Contact</em> : zxl<br>
+<em>Contact Email</em> : 1019916061@qq,com</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_license_information"><a class="anchor" href="#_license_information"></a><a class="link" href="#_license_information">1.3. License information</a></h3>
 <div class="paragraph">
 <p><em>License</em> : Apache<br>
-<em>License URL</em> : 1222<br>
+<em>License URL</em> : <a href="http://www.apache.org/" class="bare">http://www.apache.org/</a><br>
 <em>Terms of service</em> : Terms of service</p>
 </div>
 </div>
@@ -614,12 +596,6 @@ table.CodeRay td.code>pre{padding:0}
 <div class="ulist">
 <ul>
 <li>
-<p>content-hello : Content Hello</p>
-</li>
-<li>
-<p>test-controller : Test Controller</p>
-</li>
-<li>
 <p>公告接口 : Notice Controller</p>
 </li>
 <li>
@@ -634,433 +610,12 @@ table.CodeRay td.code>pre{padding:0}
 <h2 id="_paths"><a class="anchor" href="#_paths"></a><a class="link" href="#_paths">2. Resources</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_content-hello_resource"><a class="anchor" href="#_content-hello_resource"></a><a class="link" href="#_content-hello_resource">2.1. Content-hello</a></h3>
-<div class="paragraph">
-<p>Content Hello</p>
-</div>
-<div class="sect3">
-<h4 id="_gethellousingget"><a class="anchor" href="#_gethellousingget"></a><a class="link" href="#_gethellousingget">2.1.1. getHello</a></h4>
-<div class="literalblock">
-<div class="content">
-<pre>GET /content/call</pre>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_responses"><a class="anchor" href="#_responses"></a><a class="link" href="#_responses">Responses</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 10%;">
-<col style="width: 70%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">HTTP Code</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Unauthorized</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>403</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Forbidden</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>404</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Not Found</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_produces"><a class="anchor" href="#_produces"></a><a class="link" href="#_produces">Produces</a></h5>
-<div class="ulist">
-<ul>
-<li>
-<p><code><strong>/</strong></code></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_test-controller_resource"><a class="anchor" href="#_test-controller_resource"></a><a class="link" href="#_test-controller_resource">2.2. Test-controller</a></h3>
-<div class="paragraph">
-<p>Test Controller</p>
-</div>
-<div class="sect3">
-<h4 id="_baiduindexusingget"><a class="anchor" href="#_baiduindexusingget"></a><a class="link" href="#_baiduindexusingget">2.2.1. baiduIndex</a></h4>
-<div class="literalblock">
-<div class="content">
-<pre>GET /test/baidu</pre>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_responses_2"><a class="anchor" href="#_responses_2"></a><a class="link" href="#_responses_2">Responses</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 10%;">
-<col style="width: 70%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">HTTP Code</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Unauthorized</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>403</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Forbidden</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>404</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Not Found</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_produces_2"><a class="anchor" href="#_produces_2"></a><a class="link" href="#_produces_2">Produces</a></h5>
-<div class="ulist">
-<ul>
-<li>
-<p><code><strong>/</strong></code></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_callusercenterusingget"><a class="anchor" href="#_callusercenterusingget"></a><a class="link" href="#_callusercenterusingget">2.2.2. callUserCenter</a></h4>
-<div class="literalblock">
-<div class="content">
-<pre>GET /test/call/hello</pre>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_responses_3"><a class="anchor" href="#_responses_3"></a><a class="link" href="#_responses_3">Responses</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 10%;">
-<col style="width: 70%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">HTTP Code</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Unauthorized</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>403</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Forbidden</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>404</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Not Found</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_produces_3"><a class="anchor" href="#_produces_3"></a><a class="link" href="#_produces_3">Produces</a></h5>
-<div class="ulist">
-<ul>
-<li>
-<p><code><strong>/</strong></code></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_callbyribbonusingget"><a class="anchor" href="#_callbyribbonusingget"></a><a class="link" href="#_callbyribbonusingget">2.2.3. callByRibbon</a></h4>
-<div class="literalblock">
-<div class="content">
-<pre>GET /test/call/ribbon</pre>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_responses_4"><a class="anchor" href="#_responses_4"></a><a class="link" href="#_responses_4">Responses</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 10%;">
-<col style="width: 70%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">HTTP Code</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Unauthorized</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>403</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Forbidden</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>404</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Not Found</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_produces_4"><a class="anchor" href="#_produces_4"></a><a class="link" href="#_produces_4">Produces</a></h5>
-<div class="ulist">
-<ul>
-<li>
-<p><code><strong>/</strong></code></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_getinstancesusingget"><a class="anchor" href="#_getinstancesusingget"></a><a class="link" href="#_getinstancesusingget">2.2.4. getInstances</a></h4>
-<div class="literalblock">
-<div class="content">
-<pre>GET /test/discovery</pre>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_responses_5"><a class="anchor" href="#_responses_5"></a><a class="link" href="#_responses_5">Responses</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 10%;">
-<col style="width: 70%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">HTTP Code</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">&lt; <a href="#_serviceinstance">ServiceInstance</a> &gt; array</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Unauthorized</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>403</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Forbidden</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>404</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Not Found</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_produces_5"><a class="anchor" href="#_produces_5"></a><a class="link" href="#_produces_5">Produces</a></h5>
-<div class="ulist">
-<ul>
-<li>
-<p><code><strong>/</strong></code></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_queryusingget_1"><a class="anchor" href="#_queryusingget_1"></a><a class="link" href="#_queryusingget_1">2.2.5. query</a></h4>
-<div class="literalblock">
-<div class="content">
-<pre>GET /test/test-q</pre>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_parameters"><a class="anchor" href="#_parameters"></a><a class="link" href="#_parameters">Parameters</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 22.2222%;">
-<col style="width: 33.3333%;">
-<col style="width: 44.4445%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">Type</th>
-<th class="tableblock halign-left valign-middle">Name</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>avatarUrl</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>bonus</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>createTime</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string (date-time)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>id</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>roles</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>updateTime</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string (date-time)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>wxId</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Query</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>wxNickname</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_responses_6"><a class="anchor" href="#_responses_6"></a><a class="link" href="#_responses_6">Responses</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 10%;">
-<col style="width: 70%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">HTTP Code</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#_userdto">UserDto</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Unauthorized</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>403</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Forbidden</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>404</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Not Found</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">No Content</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="_produces_6"><a class="anchor" href="#_produces_6"></a><a class="link" href="#_produces_6">Produces</a></h5>
-<div class="ulist">
-<ul>
-<li>
-<p><code><strong>/</strong></code></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_917a6a0ad3b9cec276900e3a86586a07"><a class="anchor" href="#_917a6a0ad3b9cec276900e3a86586a07"></a><a class="link" href="#_917a6a0ad3b9cec276900e3a86586a07">2.3. 公告接口</a></h3>
+<h3 id="_917a6a0ad3b9cec276900e3a86586a07"><a class="anchor" href="#_917a6a0ad3b9cec276900e3a86586a07"></a><a class="link" href="#_917a6a0ad3b9cec276900e3a86586a07">2.1. 公告接口</a></h3>
 <div class="paragraph">
 <p>Notice Controller</p>
 </div>
 <div class="sect3">
-<h4 id="_gettopnoticeusingget"><a class="anchor" href="#_gettopnoticeusingget"></a><a class="link" href="#_gettopnoticeusingget">2.3.1. 查询最新一条公告</a></h4>
+<h4 id="_gettopnoticeusingget"><a class="anchor" href="#_gettopnoticeusingget"></a><a class="link" href="#_gettopnoticeusingget">2.1.1. 查询最新一条公告</a></h4>
 <div class="literalblock">
 <div class="content">
 <pre>GET /notice/one</pre>
@@ -1073,7 +628,7 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 </div>
 <div class="sect4">
-<h5 id="_responses_7"><a class="anchor" href="#_responses_7"></a><a class="link" href="#_responses_7">Responses</a></h5>
+<h5 id="_responses"><a class="anchor" href="#_responses"></a><a class="link" href="#_responses">Responses</a></h5>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 10%;">
@@ -1112,7 +667,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect4">
-<h5 id="_produces_7"><a class="anchor" href="#_produces_7"></a><a class="link" href="#_produces_7">Produces</a></h5>
+<h5 id="_produces"><a class="anchor" href="#_produces"></a><a class="link" href="#_produces">Produces</a></h5>
 <div class="ulist">
 <ul>
 <li>
@@ -1124,15 +679,15 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 </div>
 <div class="sect2">
-<h3 id="_3ecef281a805f36ea4142625eefacc12"><a class="anchor" href="#_3ecef281a805f36ea4142625eefacc12"></a><a class="link" href="#_3ecef281a805f36ea4142625eefacc12">2.4. 分享接口</a></h3>
+<h3 id="_3ecef281a805f36ea4142625eefacc12"><a class="anchor" href="#_3ecef281a805f36ea4142625eefacc12"></a><a class="link" href="#_3ecef281a805f36ea4142625eefacc12">2.2. 分享接口</a></h3>
 <div class="paragraph">
 <p>Share Controller</p>
 </div>
 <div class="sect3">
-<h4 id="_queryusingget"><a class="anchor" href="#_queryusingget"></a><a class="link" href="#_queryusingget">2.4.1. 分享列表</a></h4>
+<h4 id="_queryusingget"><a class="anchor" href="#_queryusingget"></a><a class="link" href="#_queryusingget">2.2.1. 分享列表</a></h4>
 <div class="literalblock">
 <div class="content">
-<pre>GET /share/query</pre>
+<pre>GET /shares/query</pre>
 </div>
 </div>
 <div class="sect4">
@@ -1142,7 +697,7 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 </div>
 <div class="sect4">
-<h5 id="_parameters_2"><a class="anchor" href="#_parameters_2"></a><a class="link" href="#_parameters_2">Parameters</a></h5>
+<h5 id="_parameters"><a class="anchor" href="#_parameters"></a><a class="link" href="#_parameters">Parameters</a></h5>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 10%;">
@@ -1197,7 +752,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect4">
-<h5 id="_responses_8"><a class="anchor" href="#_responses_8"></a><a class="link" href="#_responses_8">Responses</a></h5>
+<h5 id="_responses_2"><a class="anchor" href="#_responses_2"></a><a class="link" href="#_responses_2">Responses</a></h5>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 10%;">
@@ -1236,7 +791,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect4">
-<h5 id="_produces_8"><a class="anchor" href="#_produces_8"></a><a class="link" href="#_produces_8">Produces</a></h5>
+<h5 id="_produces_2"><a class="anchor" href="#_produces_2"></a><a class="link" href="#_produces_2">Produces</a></h5>
 <div class="ulist">
 <ul>
 <li>
@@ -1247,20 +802,20 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 </div>
 <div class="sect3">
-<h4 id="_findbyidusingget"><a class="anchor" href="#_findbyidusingget"></a><a class="link" href="#_findbyidusingget">2.4.2. 查询指定id的分享详情</a></h4>
+<h4 id="_findbyidusingget"><a class="anchor" href="#_findbyidusingget"></a><a class="link" href="#_findbyidusingget">2.2.2. 通过id查询</a></h4>
 <div class="literalblock">
 <div class="content">
-<pre>GET /share/{id}</pre>
+<pre>GET /shares/{id}</pre>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_description_3"><a class="anchor" href="#_description_3"></a><a class="link" href="#_description_3">Description</a></h5>
 <div class="paragraph">
-<p>查询指定Id的分享详情</p>
+<p>通过id查询</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_parameters_3"><a class="anchor" href="#_parameters_3"></a><a class="link" href="#_parameters_3">Parameters</a></h5>
+<h5 id="_parameters_2"><a class="anchor" href="#_parameters_2"></a><a class="link" href="#_parameters_2">Parameters</a></h5>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 11.1111%;">
@@ -1288,7 +843,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect4">
-<h5 id="_responses_9"><a class="anchor" href="#_responses_9"></a><a class="link" href="#_responses_9">Responses</a></h5>
+<h5 id="_responses_3"><a class="anchor" href="#_responses_3"></a><a class="link" href="#_responses_3">Responses</a></h5>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 10%;">
@@ -1306,7 +861,7 @@ table.CodeRay td.code>pre{padding:0}
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>200</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">OK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#_sharedto">ShareDto</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#_sharedto">ShareDTO</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>401</strong></p></td>
@@ -1327,7 +882,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect4">
-<h5 id="_produces_9"><a class="anchor" href="#_produces_9"></a><a class="link" href="#_produces_9">Produces</a></h5>
+<h5 id="_produces_3"><a class="anchor" href="#_produces_3"></a><a class="link" href="#_produces_3">Produces</a></h5>
 <div class="ulist">
 <ul>
 <li>
@@ -1344,7 +899,7 @@ table.CodeRay td.code>pre{padding:0}
 <h2 id="_definitions"><a class="anchor" href="#_definitions"></a><a class="link" href="#_definitions">3. Definitions</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_serviceinstance"><a class="anchor" href="#_serviceinstance"></a><a class="link" href="#_serviceinstance">3.1. ServiceInstance</a></h3>
+<h3 id="_sharedto"><a class="anchor" href="#_sharedto"></a><a class="link" href="#_sharedto">3.1. ShareDTO</a></h3>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 42.8571%;">
@@ -1358,271 +913,24 @@ table.CodeRay td.code>pre{padding:0}
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>host</strong><br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>auditStatus</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>instanceId</strong><br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>author</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>metadata</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">&lt; string, string &gt; map</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>port</strong><br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>buyCount</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>scheme</strong><br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>cover</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>secure</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>serviceId</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>uri</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#_uri">URI</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect2">
-<h3 id="_sharedto"><a class="anchor" href="#_sharedto"></a><a class="link" href="#_sharedto">3.2. ShareDto</a></h3>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 61.1111%;">
-<col style="width: 22.2223%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">Name</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>share</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">分享资源信息</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#_c31f48f84ef207e66a03c015a7243b43">分享</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>wxNickname</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">发布人昵称</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect2">
-<h3 id="_timestamp"><a class="anchor" href="#_timestamp"></a><a class="link" href="#_timestamp">3.3. Timestamp</a></h3>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 42.8571%;">
-<col style="width: 57.1429%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">Name</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>date</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>day</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>hours</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>minutes</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>month</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>nanos</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>seconds</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>time</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int64)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>timezoneOffset</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>year</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect2">
-<h3 id="_uri"><a class="anchor" href="#_uri"></a><a class="link" href="#_uri">3.4. URI</a></h3>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 42.8571%;">
-<col style="width: 57.1429%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">Name</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>absolute</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>authority</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>fragment</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>host</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>opaque</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>path</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>port</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>query</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>rawAuthority</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>rawFragment</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>rawPath</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>rawQuery</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>rawSchemeSpecificPart</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>rawUserInfo</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>scheme</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>schemeSpecificPart</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>userInfo</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect2">
-<h3 id="_userdto"><a class="anchor" href="#_userdto"></a><a class="link" href="#_userdto">3.5. UserDto</a></h3>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 42.8571%;">
-<col style="width: 57.1429%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">Name</th>
-<th class="tableblock halign-left valign-middle">Schema</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>avatarUrl</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>bonus</strong><br>
-<em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>createTime</strong><br>
@@ -1630,12 +938,42 @@ table.CodeRay td.code>pre{padding:0}
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string (date-time)</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>downloadUrl</strong><br>
+<em>optional</em></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>id</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>roles</strong><br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>isOriginal</strong><br>
+<em>optional</em></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>price</strong><br>
+<em>optional</em></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>reason</strong><br>
+<em>optional</em></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>showFlag</strong><br>
+<em>optional</em></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>summary</strong><br>
+<em>optional</em></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>title</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
@@ -1645,9 +983,9 @@ table.CodeRay td.code>pre{padding:0}
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string (date-time)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>wxId</strong><br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>userId</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>wxNickname</strong><br>
@@ -1658,7 +996,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect2">
-<h3 id="_fa86f1a57d6f758a93cb33b59c015654"><a class="anchor" href="#_fa86f1a57d6f758a93cb33b59c015654"></a><a class="link" href="#_fa86f1a57d6f758a93cb33b59c015654">3.6. 公告</a></h3>
+<h3 id="_fa86f1a57d6f758a93cb33b59c015654"><a class="anchor" href="#_fa86f1a57d6f758a93cb33b59c015654"></a><a class="link" href="#_fa86f1a57d6f758a93cb33b59c015654">3.2. 公告</a></h3>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 16.6666%;">
@@ -1676,19 +1014,19 @@ table.CodeRay td.code>pre{padding:0}
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>content</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">公告内容</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">公共内容</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>createTime</strong><br>
 <em>optional</em></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">创建时间</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#_timestamp">Timestamp</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">string (date-time)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>id</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">公告Id</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">公共id</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
@@ -1701,7 +1039,7 @@ table.CodeRay td.code>pre{padding:0}
 </table>
 </div>
 <div class="sect2">
-<h3 id="_c31f48f84ef207e66a03c015a7243b43"><a class="anchor" href="#_c31f48f84ef207e66a03c015a7243b43"></a><a class="link" href="#_c31f48f84ef207e66a03c015a7243b43">3.7. 分享</a></h3>
+<h3 id="_c31f48f84ef207e66a03c015a7243b43"><a class="anchor" href="#_c31f48f84ef207e66a03c015a7243b43"></a><a class="link" href="#_c31f48f84ef207e66a03c015a7243b43">3.3. 分享</a></h3>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 16.6666%;">
@@ -1719,25 +1057,25 @@ table.CodeRay td.code>pre{padding:0}
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>auditStatus</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">审核状态</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">审核状态 NOT_YET: 待审核 PASSED:审核通过 REJECTED:审核不通过</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>author</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">文章作者</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">作者</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>buyCount</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">购买数量</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">下载数</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>cover</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">头像</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">封面</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
@@ -1749,49 +1087,49 @@ table.CodeRay td.code>pre{padding:0}
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>downloadUrl</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">网盘地址</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">下载地址</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>id</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">分享id</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">id</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>isOriginal</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">是否原创</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">是否原创 0:否 1:是</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>price</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">价格</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">价格（需要的积分）</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>reason</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">审核原因</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">审核不通过原因</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>showFlag</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">是否展示</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">是否显示 0:否 1:是</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">boolean</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>summary</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">文章作者</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">概要信息</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>title</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">分享内容标题</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">标题</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">string</p></td>
 </tr>
 <tr>
@@ -1803,7 +1141,7 @@ table.CodeRay td.code>pre{padding:0}
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>userId</strong><br>
 <em>optional</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">分享人id</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">发布人id</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">integer (int32)</p></td>
 </tr>
 </tbody>
@@ -1814,7 +1152,7 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-05 00:09:36 CST
+Last updated 2020-10-05 10:20:07 CST
 </div>
 </div>
 </body>

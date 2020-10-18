@@ -1,0 +1,94 @@
+/* pages/wodetougao/wodetougao.wxss */
+.share-item {
+  display: flex;
+  width: 100%;
+  height: 200rpx;
+  padding: 10rpx;
+  align-items: center;
+  position: relative;
+  border-bottom: 1rpx dashed gray;
+}
+
+.share-item image {
+  flex: 0 0 20%;
+  width: 140rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+
+.origin-label {
+  position: absolute;
+  top: 18%;
+  display: flex;
+  color: #fff;
+  flex-wrap: nowrap;
+  font-size: 30rpx;
+  padding: 9rpx;
+}
+
+.origin-label.one {
+  background-color: #FF4444;
+}
+
+.origin-label.two {
+  background-color: rgb(132, 189, 0);
+}
+
+.item-main {
+  flex: 0 0 55%;
+  height: 160rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+.item-title {
+  font-weight: 600;
+  letter-spacing: 1rpx;
+  font-size: 30rpx;
+}
+
+.item-summary {
+  font-weight: 500;
+  letter-spacing: 1rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+
+.item-duihuan {
+  height: 160rpx;
+  line-height: 160rpx;
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+}
+
+.duihuan-txt-1 {
+  height: 100rpx;
+  font-weight: 500;
+  letter-spacing: 1rpx;
+  font-size: 30rpx;
+}
+
+.duihuan-txt-2 {
+
+  font-weight: 500;
+  letter-spacing: 1rpx;
+  font-size: 30rpx;
+}
+
+
+.dicription {
+  font-size: 32rpx;
+  padding: 20rpx;
+}
+
+.dicription-title {
+  font-weight: 600;
+}
+
+.share-btn {
+  color: gray;
+}
